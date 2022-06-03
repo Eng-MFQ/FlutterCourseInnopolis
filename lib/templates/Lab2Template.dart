@@ -46,11 +46,13 @@ Widget flowerDetails(BuildContext context) {
       crossAxisAlignment: CrossAxisAlignment.start,
       mainAxisSize: MainAxisSize.max,
       children: <Widget>[
+        /** Focus Here **/
         imageGroup(),
         titleGroup(),
         iconGroup(),
         textGroup(),
         buttonGroup(),
+        /** Focus Here **/
       ],
     ),
   );
